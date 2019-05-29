@@ -7,6 +7,10 @@
 	</form> 
 </div> 
 
+<div id= "welcome">
+	
+</div>
+
 	<div id="onliners">
 		<p>Users Currently Online</p>
 	</div>
@@ -17,7 +21,7 @@
 	</div> 
 	
 	<!user enters message>
-	<form method = "post" action = "index.php" id="msgform">
+	<form method = "post" action = "insert_msg.php" id="msgform">
 		<textarea name="enter_message" placeholder="Enter Message" id="entermessage"></textarea>
 		<input type="submit" name="submit" value="Send message" class="btn"/>
 	</form> 
@@ -27,6 +31,8 @@
 		<input type ="submit" name="logout" value="Logout" class="btn" onclick="ajax_stuff()"/>
 	</form> 
 </div> 
+
+<script src="Jojo'sChatApp.js"></script>
 
 <style type="text/css">
 
